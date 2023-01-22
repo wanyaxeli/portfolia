@@ -3,21 +3,27 @@ const Nav=()=>{
     const [tab,setTab]=useState('tab1')
     const handleTab1 =()=>{
         setTab('tab1')
+        navigate('/')  
     }
     const handleTab2 =()=>{
             setTab('tab2')
+            navigate('/')  
     }
     const handleTab3 =()=>{
             setTab('tab3')
+            navigate('/')  
     }
     const handleTab4 =()=>{
             setTab('tab4')
+            navigate('/')  
     }
     const handleTab5 =()=>{
             setTab('tab5')
+            navigate('/')  
     }
     const handleTab6 =()=>{
             setTab('tab6')
+            navigate('/')  
     }
     return(
         <Nav>
