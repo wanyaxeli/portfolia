@@ -1,5 +1,7 @@
 import React,{useState} from "react";
+import { useNavigate } from "react-router-dom";
 const Nav=()=>{
+    const navigate= useNavigate()
     const [tab,setTab]=useState('tab1')
     const handleTab1 =()=>{
         setTab('tab1')
